@@ -43,8 +43,6 @@ header {
     rgba(0, 0, 0, 0.8) 60%,
     rgba(0, 0, 0, 0) 100%
   );
-
- 
 }
 
 .container {
@@ -113,4 +111,13 @@ header {
 .Zap {
   text-decoration: none;
   color: #fff;
+}
+
+.iFood {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
 }
