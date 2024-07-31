@@ -190,6 +190,7 @@ header {
   padding: 10px 20px;
   border-radius: 50px;
   border-bottom: 3px solid #bad866;
+  font-family:  sans-serif
   }
 
 #pizzas{
@@ -203,10 +204,26 @@ header {
 }
 
 
-/* #cardapio div {
-  width: 100%;
+#delivery{
+  max-height: 270px;
+  min-width: 1073px;
+  background: #ebe7db;
+  margin: 50px 0; 
   display: flex;
-  justify-content: space-between;
-  
-} */
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+  text-align: center ;
+}
 
+#delivery h1{
+  text-transform: uppercase;
+  color: #d03012;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+#delivery .sec-menu{
+  justify-content: center;
+  padding: 40px;
+}
