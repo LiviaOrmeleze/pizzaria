@@ -12,9 +12,9 @@ body {
   overflow: hidden;
 }
 .bgfundo {
-  background: url(https://placehold.co/1920x1800) no-repeat center/cover;
+  background: url(../img/pizzaFundo.png) no-repeat center/cover;
   width: 100%;
-  height: 700px;
+  height:  700px;
 }
 
 header {
@@ -76,7 +76,7 @@ header {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #2a764f;
 }
 
 .site-header-main {
@@ -96,7 +96,7 @@ header {
 }
 
 #btnZap {
-  background: #e7a200;
+  background: #2a764f;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 20px;
@@ -118,16 +118,14 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
-  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(-2px 4px 6px black);
 }
 
 #BoasVindas {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   background: #f6f6f6;
 }
 
@@ -138,23 +136,24 @@ header {
 #TextoBoasVindas {
   max-width: 600px;
   padding-right: 100px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #TextoBoasVindas h4 {
   text-transform: uppercase;
   font-size: 16px;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 30px;
   font-family: "Times New Roman", Times, serif;
 }
 
 #TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #e7a200;
+  color: #2a764f;
   font-size: 23px;
   margin-bottom: 0;
-  margin-top: 20px;
+  margin-top: 23px;
 }
 
 #TextoBoasVindas p {
@@ -168,7 +167,7 @@ header {
 }
 
 #cardapio img {
-  padding: 36px 0;
+  padding: 36px 0 0 0;
 }
 
 #cardapio div img {
@@ -176,20 +175,20 @@ header {
 }
 
 #cardapio h2 {
-  color: #d03012;
+  color: #c3322a;
   text-transform: uppercase;
   font-size: 28px;
-  font-family: "Times New Roman", Times, serif;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0 0 7px 0;
 }
 
 .btnCardapio {
   text-decoration: none;
   color: #fff;
-  background: #387922;
+  background:#2a764f;
   padding: 10px 20px;
   border-radius: 50px;
-  border-bottom: 3px solid #bad866;
+  border-bottom: 3px solid #d9d9d9;
   font-family: sans-serif;
 }
 
@@ -217,14 +216,14 @@ header {
 
 #delivery h1 {
   text-transform: uppercase;
-  color: #d03012;
+  color: #c3322a;
   font-weight: 900;
-  font-family: sans-serif;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #delivery .sec-menu {
   justify-content: center;
-  padding: 40px;
+  padding: 10px;
 }
 
 #icone {
@@ -262,7 +261,7 @@ header {
 }
 
 .forms h2 {
-  color: #e7a200;
+  color: #2a764f;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
@@ -299,8 +298,8 @@ header {
 }
 
 .forms input[type="submit"] {
-  background: #e7a200;
-  background-color: #e7a200;
+  background: #2a764f;
+  background-color: #2a764f;
   width: 155px;
   border-radius: 50px;
   color: #fff;
@@ -309,7 +308,7 @@ header {
 }
 
 footer {
-  background: #e7a200;
+  background: #2a764f;
   min-height: 400px;
   margin-top: -255px;
   color: #fff;
